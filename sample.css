@@ -10,5 +10,44 @@ mani>section{
 
 main>section>article{
     border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.section-one>article{
+    width: 70%;
+    background-color: darkgreen;
+    color: white;
+}
+.section-one>article:hover{
+    width: 90%;
+    background-color: black;
+    color: rgb(red, green, blue);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+@media  screen and (max-width: 800px) {
+    .main-content{
+        background-color: lightslategray;
+        flex-direction: column;
+    }
+    .section-one>article:hover{
+    height: 300%;
+    background-color: black;
+    color: rgb(red, green, blue);
+}
+.section-one{
+    width: 100%;
+}
     
 }
