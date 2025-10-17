@@ -1,0 +1,14 @@
+body{
+    background-color: #f0f0f0;
+
+}
+mani>section{
+    border: 2px solid black;
+    padding: 10 px;
+    margin: 10 px;
+}
+
+main>section>article{
+    border: 2px solid black;
+    
+}
