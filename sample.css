@@ -1,18 +1,21 @@
 body{
-    background-color:yellow;
+    background-color:rgb(0, 238, 255);
 }
 main>section{
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 
 main>section>article{
     border: 2px solid black;
     padding: 5px;
     margin: 5px;
-    border-radius: 4px;
+    border-radius: 7px;
+}
+nav>ul>li{
+    display: inline;
 }
 
 .section-one{
@@ -29,7 +32,7 @@ main>section>article{
 }
 .section-one>article:hover{
     width: 90%;
-    background-color: black;
+    background-color: blue;
     color: rgb(red, green, blue);
 }
 
@@ -39,12 +42,12 @@ main>section>article{
 }
 @media  screen and (max-width: 800px) {
     .main-content{
-        background-color:purple;
+        background-color:rgb(4, 128, 0);
         flex-direction: column;
     }
     .section-one>article:hover{
     height: 300%;
-    background-color: black;
+    background-color:blue;
     color: rgb(red, green, blue);
 }
 .section-one{
